@@ -29,6 +29,9 @@ Arch sudo pacman -S zed
 ### git
 Arch: sudo pacman -S git
 
+### paru 
+Arch: sudo pacman -S paru
+
 ### 7z
 Arch: sudo pacman -S p7zip
 
@@ -41,6 +44,12 @@ Arch: sudo pacman -S discover
 
 ### Misc packages
 Arch: sudo pacman -S imagemagick optipng findutils
+
+## AUR
+### lavat
+paru -S lavat-git<br>
+or<br>
+yay -S lavat-git
 
 ## Flathub
 ### Gear lever
@@ -196,5 +205,10 @@ finaly open fonts<br>
 set interface text to FiraCode Nerd Font<br>
 set document text to Adwaita Sans<br>
 and set Monospace text to FiraCode Nerd Font
+
+# finishing up
+at last download this github repo<br>
+eg: git clone https://github.com/just-Smidge/Tokyo-Meow.git
+
 
 core extra multilib
