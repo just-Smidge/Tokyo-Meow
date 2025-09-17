@@ -14,10 +14,10 @@ Arch: sudo pacman -S gnome-tweaks
 ### 7z
 Arch: sudo pacman -S p7zip
 
-### Flatpak ⚠︎only install if you dont already have it
+### Flatpak ⚠️only install if you dont already have it⚠️
 Arch: sudo pacman -S flatpak
 
-### Discover ⚠︎only install if you dont have the gnome software store⚠︎
+### Discover ⚠️only install if you dont have the gnome software store⚠️
 Arch: sudo pacman -S discover
 
 ### Misc packages
@@ -54,7 +54,7 @@ click install and find the file named
 File name: Simp1e-Tokyo-Night.tar.xz
 
 ### Icons: <a href="https://www.pling.com/p/1187019">DarK</a>
-⚠︎download this file normaly, do not let pling auto install⚠︎
+⚠️download this file normaly, do not let pling auto install⚠️
 click download and select the file
 
 once downloaded cd into the location of the file
