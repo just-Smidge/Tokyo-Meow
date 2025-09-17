@@ -2,12 +2,12 @@
 <screenshot>
 
 # Links & credits
-r/unixporn post:
+r/unixporn post: <br>
 wallpaper: unknown (if you know of or are the creator please let me know so i can creddit you)
 
 
 # Programs
-##pacman repo
+## pacman repo
 ### Gnome tweaks
 Arch: sudo pacman -S gnome-tweaks
 
