@@ -76,6 +76,7 @@ now you can launch pling store
 ### Blur my Shell
 
 ### Boost Volume
+no settings
 
 ### clock smart display
 
@@ -90,6 +91,7 @@ now you can launch pling store
 ### just perfection
 
 ### launch new instance
+no settings
 
 ### lockscreen extension
 
@@ -105,9 +107,13 @@ now you can launch pling store
 
 ### tiling shell
 
+### top bar orgniser
+turn off after finished using
+
 ### user themes
 
 ### window is ready notification remover
+no settings
 
 # How to install shell extention configs
 
