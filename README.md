@@ -96,7 +96,26 @@ paste the DarK-svg folder into the .icons folder
 open gnome tweaks and in the apperances tab set icons to Dark-svg
 
 # gnome tweaks settings
+open tweaks and navigate to the apperances tab
 
+in the apperances tab<br>
+set cursor to Simp1e-Tokyo-Night<br>
+set icons to DarK-svg if you havnt already<br>
+set shell to Tokyonight-Dark<br>
+setlegacy application to Tokyonight-Dark
 
+go to the windows tab<br>
+and set maximise and minimise to off under the titlebar actions heading<br>
+as well as making sure that placement is set to right
+
+under click actions set center new windows to on
+
+and under window focus set focus on hover as selected<br>
+and make sure raise window when focused is set to off
+
+finaly open fonts<br>
+set interface text to FiraCode Nerd Font<br>
+set document text to Adwaita Sans<br>
+and set Monospace text to FiraCode Nerd Font
 
 core extra multilib
