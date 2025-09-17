@@ -5,17 +5,36 @@
 r/unixporn post:<br>
 wallpaper: unknown (if you know of or are the creator please let me know so i can creddit you)
 
+# Fonts
+### fira code
+Arch: sudo pacman -S ttf-fira-code ttf-firacode-nerd
 
 # Programs
 ## pacman repo
 ### Gnome tweaks
 Arch: sudo pacman -S gnome-tweaks
 
+### cava
+Arch: sudo pacman -S cava
+
+### fastfetch
+Arch: sudo pacman -S fastfetch
+
+### kitty
+Arch: sudo pacman -S kitty
+
+### zed
+Arch sudo pacman -S zed
+
+### git
+Arch: sudo pacman -S git
+
 ### 7z
 Arch: sudo pacman -S p7zip
 
 ### Flatpak ⚠️only install if you dont already have it⚠️
-Arch: sudo pacman -S flatpak
+Arch: sudo pacman -S flatpak<br>
+then reboot
 
 ### Discover ⚠️only install if you dont have the gnome software store⚠️
 Arch: sudo pacman -S discover
@@ -26,6 +45,9 @@ Arch: sudo pacman -S imagemagick optipng findutils
 ## Flathub
 ### Gear lever
 <a href="https://flathub.org/en/apps/it.mijorus.gearlever">gear lever flathub</a>
+
+### extension manager
+<a href="https://flathub.org/en/apps/com.mattjakeman.ExtensionManager">extension manager flathub</a>
 
 ## Appimage
 ### Pling store
@@ -42,10 +64,46 @@ finaly click "move to the app menu"
 now you can launch pling store
 
 # Gnome shell extentions
+### Blur my Shell
+
+### Boost Volume
+
+### clock smart display
+
+### Customise clock on lock screen
+
+### Dash to Panel
+
+### Dim background windows
+
+### drive activity indicator
+
+### just perfection
+
+### launch new instance
+
+### lockscreen extension
+
+### notification banner reloaded
+
+### notification timeout
+
+### privacy indicators accent color
+
+### rounded corners
+
+### rounded window corners reborn
+
+### tiling shell
+
+### user themes
+
+### window is ready notification remover
 
 # How to install shell extention configs
 
 # Plings
+open the pling store app<br>
 if pling store is asking for remote interaction and the popup wont go away just ignor the popup and bring focus back to the pling store<br>
 you will have to use the side scroll bar to navigate up and down if this happens
 
@@ -94,6 +152,27 @@ eg: ~/.icons/
 paste the DarK-svg folder into the .icons folder
 
 open gnome tweaks and in the apperances tab set icons to Dark-svg
+
+# github
+### tokyo night GTK theme
+<a href="https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme">Tokyonight-GTK-Theme</a><br>
+in the terminal git clone this repo<br>
+eg: git clone https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme.git
+
+once downloaded cd into Tokyonight-GTK-Theme/themes<br>
+eg: cd ~/Tokyonight-GTK-Theme/themes
+
+enable the script to run<br>
+eg: chmod +x install.sh
+
+run the script with the special peramiters<br>
+eg: ./install.sh -l macos
+
+then enable flatpak apps to work with the theme by running these commands<br>
+eg: sudo flatpak override --filesystem=$HOME/.themes<br>
+eg: sudo flatpak override --filesystem=$HOME/.icons<br>
+eg: flatpak override --user --filesystem=xdg-config/gtk-4.0<br>
+eg: sudo flatpak override --filesystem=xdg-config/gtk-4.0
 
 # gnome tweaks settings
 open tweaks and navigate to the apperances tab
